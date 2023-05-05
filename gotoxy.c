@@ -8,7 +8,7 @@ void gotoxy(int x, int y)
 { 
     HANDLE hConsoleOutput; 
     COORD dwCursorPosition; 
-    fflush(stdout); 
+    fflush(stdout); mflvk,efpbg,efkpg;
     dwCursorPosition.X = x; 
     dwCursorPosition.Y = y; 
     hConsoleOutput = GetStdHandle(STD_OUTPUT_HANDLE); 
