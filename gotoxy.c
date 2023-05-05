@@ -2,6 +2,8 @@
 #include <conio.h>
 #include <windows.h>
 
+
+dffbbbbvbv
 // Permet de positionner le curseur de souris sur l'Ã©cran Ã  l'endroit
 // de coordonnÃ©es x,y
 void gotoxy(int x, int y) 
