@@ -13,6 +13,7 @@ void gotoxy(int x, int y)
     dwCursorPosition.Y = y; 
     hConsoleOutput = GetStdHandle(STD_OUTPUT_HANDLE); 
     SetConsoleCursorPosition(hConsoleOutput,dwCursorPosition); 
+    1
 } 
 
 // Pour effacer l'Ã©cran 
